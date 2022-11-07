@@ -1,0 +1,12 @@
+<div class="container p-2 d-flex flex-column">
+  <div class="d-flex justify-content-center">
+    <h1>Ask your coach anything</h1>
+    </div>
+    <div class="d-flex justify-content-center">
+    <form action="answer" data-turbo="false">
+      <input type="text" name="question" placeholder="Your question pls">
+      <input type="submit">
+      <p><%= @answer %></p>
+    </form>
+    </div>
+</div>
